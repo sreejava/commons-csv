@@ -18,7 +18,6 @@
 package org.apache.commons.csv;
 
 import org.junit.Assert;
-import org.junit.Ignore;
 import org.junit.Test;
 
 /**
@@ -32,31 +31,26 @@ public class CSVFormatPredefinedTest {
     }
 
     @Test
-    @Ignore
     public void testDefault() {
         test(CSVFormat.DEFAULT, "Default");
     }
 
     @Test
-    @Ignore
     public void testExcel() {
         test(CSVFormat.EXCEL, "Excel");
     }
 
     @Test
-    @Ignore
     public void testMySQL() {
         test(CSVFormat.MYSQL, "MySQL");
     }
 
     @Test
-    @Ignore
     public void testRFC4180() {
         test(CSVFormat.RFC4180, "RFC4180");
     }
 
     @Test
-    @Ignore
     public void testTDF() {
         test(CSVFormat.TDF, "TDF");
     }
